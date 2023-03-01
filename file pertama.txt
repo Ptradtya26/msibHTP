@@ -7,3 +7,4 @@ Rincian materi pelatihan
 6. PHP dan MySQL
 7. Laravel
 8.Rest API
+9.Final Project
