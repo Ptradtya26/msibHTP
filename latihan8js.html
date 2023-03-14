@@ -1,0 +1,62 @@
+<script>
+  //JIKA TIDAK MENGGUNAKAN LOOPING
+  document.write("Bilangan 1" + "<br> Bilangan 2" + "<br> Bilangan 3");
+  document.write("<hr> Cetak bilangan 1 sampai 50");
+  // CONTOH PERULANGAN MENGGUNAKAN FOR MENGGUNAKARATPRN OPERATOR DI INCREMENT
+  var angka;
+  for (angka = 1; angka <= 50; angka++) {
+    document.write("<br> Bilangan" + angka);
+  }
+  //CONTOH PERULANGAN MENGGUNAKAN DECREMENT
+  document.write("<hr>");
+  var bil;
+  for (bil = 50; bil >= 1; bil--) {
+    document.write("<br>" + bil);
+  }
+  //MENCETAK BILANGAN  GANJIL
+  //MENGGUNAKAN MODULUS (SISA BAGI)
+  document.write("<hr> mencetak Bilangan Ganjil");
+  let ganjil;
+  for (ganjil = 1; ganjil <= 20; ganjil++) {
+    if (ganjil % 2 == 1) {
+      document.write("<br> bilangan ganjil :" + ganjil);
+    }
+  }
+
+  //MENCETAK BILANGAN GENAP
+  document.write("<hr> mencetak Bilangan genap");
+  let genap;
+  for (genap = 1; genap <= 20; genap++) {
+    if (genap % 2 === 0) {
+      document.write("<br> bilangan genap :" + genap);
+    }
+  }
+
+  //PERULANGAN MENGGUNAKAN WHILE
+
+  document.write("<hr>-------Cetak angka 1 sampai 30-------");
+  let angka2 = 1;
+  //ANGKA 1 INI NANTINYA AKAN DI INCREMENTS
+  while (angka2 <= 30) {
+    document.write("<br>cetak bilangan " + angka2);
+    angka2++;
+  }
+
+  //MEMBUAT BILANGAN PRIMA
+  document.write("<hr> Membuat Bilangan Prima");
+
+  var i;
+  var y;
+
+  for (i = 1; i <= 30; i++) {
+    var prim = 0;
+    for (y = 1; y <= i; y++) {
+      if (i % y == 0) {
+        prim++;
+      }
+    }
+    if (prim == 2) {
+      document.write("<br>Bilangan Prima :" + i);
+    }
+  }
+</script>
