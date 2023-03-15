@@ -1,0 +1,25 @@
+<marquee>
+  <h1>Belajar DOM dan Event Handler</h1>
+</marquee>
+<form id="frm">
+  Nama :
+  <input type="text" name="nama" placeholder="Silahkan masukan nama anda" />
+  Kelas :
+  <input type="text" name="kelas" placeholder="silahkan masukan kelas anda" />
+
+  <input type="button" name="proses" value="ketik" onclick="ketik()" />
+  <!--Penggunaan event handler onclik-->
+</form>
+<h1 id="hasil"></h1>
+<script>
+  function ketik() {
+    let Mahasiswa = document.getElementById("frm").nama.value; // contoh pembuatan element value
+    let kelas = document.getElementById("frm").kelas.value;
+
+    let input = "Selamat Pagi" + Mahasiswa + "<br> kelas : " + kelas;
+    let no_input = "Maaf nama anda belum terisi";
+    let hasil = Mahasiswa && kelas != "" ? input : no_input;
+
+    document.getElementById("hasil").innerHTML = hasil;
+  }
+</script>
