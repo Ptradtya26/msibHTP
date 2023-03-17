@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="js/jquery.js"></script>
+    <script>
+      function hide() {
+        $("img").hide();
+      }
+
+      function show() {
+        $("img").show();
+      }
+    </script>
+  </head>
+  <body bgcolor="blue">
+    <div>
+      <img src="img/1a.jpg" width="500px" height="300px" />
+      <img src="img/1c.jpeg" width="500px" height="300px" />
+      <img src="img/1b.png" width="500px" height="300px" />
+    </div>
+    <!--ini tombol untuk hide-->
+    <button id="button" onclick="hide()">Click</button>
+    <button id="button" onclick="show()">Clicklagi</button>
+  </body>
+</html>
