@@ -36,7 +36,6 @@
         <tr>
             <td height="40" colspan="4" align="center">
                 <input type="submit" name="submit" value="Hitung">
-                <input type="submit" name="submit" value="Hapus">
         </td>
         </tr>
 </table>
@@ -46,13 +45,13 @@
         $nilaiA = $_POST['Alas'];
         $nilaiB = $_POST['tinggi'];
 
-        $luas = $nilaiA * $nilaiB;
+        $luasjajargenjang = $nilaiA * $nilaiB ;
         echo 'Hasil perhitungan Luas Jajar Genjang';
         echo '<br> Diketahui :';
         echo '<br> Alas : '.$nilaiA;
         echo '<br> Tinggi : '.$nilaiB;
 
-        echo '<br> Maka Luasnya ' .$luas;
+        echo '<br> Maka Luasnya ' .$luasjajargenjang;
     }
 ?>
 </body>
