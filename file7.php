@@ -7,6 +7,7 @@
 <input type="submit" name="login" value="login">
 </form>
 <?php 
+error_reporting(0);
 $username = $_POST['uname'];
 $password = $_POST ['pass'];
 $login = $_POST['login'];

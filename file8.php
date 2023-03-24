@@ -25,6 +25,7 @@
 <button name="proses" type="submit">Simpan</button>
 </form>
 <?php
+error_reporting(0);
 $nama = $_POST ['nama'];
 $matakuliah = $_POST['matkul'];
 $nilai = $_POST['nilai'];
