@@ -48,16 +48,16 @@ class Pegawai{
 
 
     public function cetak(){
-        echo 'NIP Pegawai'.$this->nip;
-        echo '<br>Nama Pegawai'.$this->nama;
-        echo '<br>Jabatan'.$this->jabatan;
-        echo '<br>Agama'.$this->agama;
-        echo '<br>Status'.$this->status;
-        echo '<br>Gaji Pokok Rp.'.number_format($this->setGajiPokok($this->jabatan),0,',','.');
-        echo '<br>Tunjangan Jabatan Rp.'.number_format($this->setTunJab(),0,',','.');
-        echo '<br>Tunjangan Keluarga Rp.'.number_format($this->setTunKel(),0,',','.');
-        echo '<br>Zakat Profesi Rp.'.number_format($this->setZakatProfesi(),0,',','.');
-        echo '<br>Gaji Bersih Rp.'.number_format($this->setGajiBersih(),0,',','.');
+        echo 'NIP Pegawai : '.$this->nip;
+        echo '<br>Nama Pegawai : '.$this->nama;
+        echo '<br>Jabatan : '.$this->jabatan;
+        echo '<br>Agama : '.$this->agama;
+        echo '<br>Status : '.$this->status;
+        echo '<br>Gaji Pokok : Rp.'.number_format($this->setGajiPokok($this->jabatan),0,',','.');
+        echo '<br>Tunjangan Jabatan : Rp.'.number_format($this->setTunJab(),0,',','.');
+        echo '<br>Tunjangan Keluarga : Rp.'.number_format($this->setTunKel(),0,',','.');
+        echo '<br>Zakat Profesi : Rp.'.number_format($this->setZakatProfesi(),0,',','.');
+        echo '<br>Gaji Bersih : Rp.'.number_format($this->setGajiBersih(),0,',','.');
         echo '<hr>';
 
     }
