@@ -22,7 +22,7 @@ $n4->cetak();
 $n5->cetak();
 
 //jumlah Nasabah
-echo'<br>Jumlah Nasabah'.Bank::$jml.'Orang';
+echo'<br>Jumlah Nasabah '.Bank::$jml.' Orang';
 
 //pemanggilan/cetak data menggunakan array
 

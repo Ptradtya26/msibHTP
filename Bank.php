@@ -22,8 +22,8 @@ class bank{
      }
      public function cetak(){
         echo '<b><u>'.self::BANK.'</u></b>';
-        echo '<br>No. Rekening '.$this->norek;
-        echo '<br>Nama Nasabah '.$this->nama;
+        echo '<br>No. Rekening : '.$this->norek;
+        echo '<br>Nama Nasabah : '.$this->nama;
         echo'<br>Saldo : Rp. '.number_format($this->saldo,0, ',','.');
         echo'<hr>';
      }
