@@ -41,7 +41,7 @@ function kategori_skill($skor){
                 <tr>
                     <td>NIM :</td>
                     <td>
-                        <input type="text" name="nim">
+                        <input type="number" name="nim">
                     </td>
                 </tr>
                 <tr>
