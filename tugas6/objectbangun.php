@@ -15,7 +15,7 @@ require_once "segitiga.php";
 <body>
 <table width='424' height='80' border='2' bordercolor='blue' bgcolor='greenyellow'>
     <thead>
-        <tr>
+        <tr bgcolor='yellow'>
         <th>Nama Bidang</th>
         <th>Luas</th>
         <th>Keliling</th>
