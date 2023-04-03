@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table align="center">
+      <tbody>
+        <tr>
+          <td>
+            <!--Membuat Form-->
+            <form>
+              <fieldset>
+                <table border="0" align="center" cellpadding="10" width="30%">
+                  <thead>
+                    <tr bgcolor="blue">
+                      <th colspan="2">Latihan Membuat Form</th>
+                    </tr>
+                  </thead>
+                  <!--tfoot walaupun kodingan ada ditengah tetapi tampilan akan dibawah-->
+                  <tfoot>
+                    <tr>
+                      <th><input type="submit" /></th>
+                    </tr>
+                  </tfoot>
+                  <tbody>
+                    <tr>
+                      <td width="25%">
+                        <!--Inputan Nama menggunakan type text-->
+                        <label>Nama</label>
+                      </td>
+                      <td>
+                        <input
+                          type="text"
+                          name="nama"
+                          value=""
+                          placeholder="silahkan masukan nama"
+                          size="50"
+                          width="100"
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label>Email</label>
+                      </td>
+                      <td>
+                        <input
+                          type="email"
+                          name="email"
+                          value=""
+                          placeholder="Masukan email"
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><label>Gender</label></td>
+                      <td>
+                        <input type="radio" name="gender" value="L" checked />
+                        Laki-laki &nbsp;&nbsp;
+                        <input type="radio" name="gender" value="P" />Perempuan
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><label>UKM Yang Diminati </label></td>
+                      <td>
+                        <input
+                          type="checkbox"
+                          name="hobby"
+                          value="menulis"
+                        />FUTSAL<br />
+                        <input
+                          type="checkbox"
+                          name="hobby"
+                          value="membaca"
+                        />VOLI<br />
+                        <input
+                          type="checkbox"
+                          name="hobby"
+                          value="olahraga"
+                        />TARI<br />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><label>PRODI</label></td>
+                      <td>
+                        <select name="pendidikan">
+                          <option value="">--Program Studi--</option>
+                          <option value="">TEKNOLOGI INFORMASI</option>
+                          <option value="">TEKNOLOGI LABORATORIUM MEDIS</option>
+                          <option value="">KEBIDANAN</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><label>Alasan mengambil UKM tersebut</label></td>
+                      <td>
+                        <textarea
+                          name="teks"
+                          cols="30"
+                          rows="5"
+                          placeholder="Tuliskan alasan anda"
+                        ></textarea>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </fieldset>
+            </form>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
